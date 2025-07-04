@@ -31,11 +31,27 @@
 
 #     return
 
+# init python:
+#     import requests
+
+# label start:
+#     "Welcome back!"
+#     call show_players
+#     "Let's continue the game..."
+#     return
+
 init python:
     import requests
 
 label start:
-    "Welcome back!"
+    window hide
+    scene bg room
+
+    $ renpy.pause(2.0)
+
+    window show
+    narrator "Welcome back!{w=1.0}{nw}"
     call show_players
-    "Let's continue the game..."
+    narrator "Let's continue the game...{w=1.0}{nw}"
+
     return
