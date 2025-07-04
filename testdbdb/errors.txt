@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/display_name.rpy", line 17: expected statement.
+    extend players
+                  ^
+
+Ren'Py Version: Ren'Py 8.3.7.25031702
+Fri Jul  4 19:21:20 2025
