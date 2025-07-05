@@ -45,7 +45,8 @@ init python:
 
 label start:
     window hide
-    scene bg room
+    scene zenitsu:
+        zoom 2.00
 
     $ renpy.pause(2.0)
 
